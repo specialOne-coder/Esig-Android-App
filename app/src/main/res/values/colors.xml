@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3d5afe</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="exe">#0d47a1</color>
+    <color name="Esig_Blue">#3d5afe</color>
+    <color name="Esig_jaune">#fffde7</color>
+    <color name="viol1">#ab47bc</color>
+    <color name="viol2">#df78ef</color>
+    <color name="myred">#d81b60</color>
+    <color name="red"></color>
+    <color name="myver">#2bbd7e</color>
+    <color name="mycaf">#40241a</color>
+    <color name="myor">#e64a19</color>
+    <color name="gris">#eeeeee</color>
+    <color name="gras">#ffffff</color>
+    <color name="myvbleu">#1976d2</color>
+    <color name="vercit">#76ff03</color>
+    <color name="ups">#e91e63</color>
+    <color name="pink">#ff3180</color>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:id="@+id/linearnav"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:gravity="bottom">
+
+    <ImageButton
+        android:id="@+id/imagechoix"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:onClick="choiximg"
+        android:layout_gravity="center"
+        android:layout_margin="0dp"
+        android:background="@drawable/addtof_foreground"
+        android:contentDescription="@string/nav_header_desc"
+        android:layout_weight="1"
+         />
+
+    <TextView
+        android:id="@+id/nometudiant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="ok"
+        android:textColor="@color/ups"
+        android:textStyle="bold|normal"
+        android:textSize="18dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:textSize="18dp"
+        android:textColor="@color/ups"
+        android:layout_gravity="center"
+        />
+
+
+
+
+
+
+</LinearLayout>

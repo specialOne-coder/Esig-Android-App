@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Esig</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Esig Global Success</string>
+    <string name="nav_header_subtitle">Votre succèss Notre soucis</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_connexion">Connexion</string>
+    <string name="Esig_name"> Global Success </string>
+
+
+    <string name="menu_home">Actualités</string>
+    <string name="menu_share">Partager</string>
+    <string name="Welcome_msg">Global Success</string>
+    <string name="Esig_devise">Votre succès Notre Soucis</string>
+    <string name="Esig_sil"><![CDATA[ESIG Sil1 & Sil2]]></string>
+    <string name="menu_presentation">Presentation</string>
+    <string name="menu_formation">Formations</string>
+    <string name="menu_admission">Admission</string>
+    <string name="menu_partenariat">Partenariat</string>
+    <string name="menu_contact">Contacts</string>
+    <string name="actu">Actualités</string>
+    <string name="dg_msg">Message du Directeur General</string>
+    <string name="Esig_descript">Bienvenue sur l\'application mobile de l\'École Supérieure d\'Informatique et de Gestion.  L\'ESIG Global Success est une école pluridisciplinaire. Le champ des disciplines enseignées couvre plusieurs grands domaines : sciences fondamentales et appliquées, génie-logiciel, réseaux et systèmes informatiques, langues, sciences du langage, droit, économie, gestion d\'organisation, comptabilité, génie-électronique...  Un vaste choix de cursus est offert, avec la possibilité de préparer les niveaux de diplômes suivants: BTS, licences, licences professionnelles, certifications CISCO, TOEFL/IELTS, DALF/DELF, ZD/HSF. L\'ESIG a également beaucoup à offrir en termes de loisirs, de pratique sportive, de culture et de vie associative.</string>
+    <string name="offre_form">Offre de Formation</string>
+    <string name="Form_desc">L’ ESIG GLOBAL SUCCESS offre des programmes de formations post-BAC (1re à 5e année) et prépare à des dîplomes de Brevet de Technicien Supérieur (BTS), Licence Professionnelle, Brevet de Technicien, et de Langue. Une des distinctions de l’ESIG sur la scène éducative nationale est son programme du DUT qui est conforme au PPN français avec quelques petits ajustements pour mieux se répondre aux spécificités locales et communautaires. Le système LMD qui y est appliqué est assez conforme à celui pratiqué en France avec des règles de validation des UE et de semestres un peu plus rigoureuses pour rehausser le niveau de compétitivité des apprenants. Pour répondre efficacement aux besoins de formations professionnelles de courte durée, l’ESIG dispose de programmes de formation modulaire. Ces formations de durée comprise entre 6 - 9 mois ont la particularité d’avoir un très fort taux d’insertion professionnelle, tant les formations sont essentiellement pratiques et spécialisées. Le niveau minimum d’entrée dans ses filières modulaires est le Brevet d’Etude du Premier Cycle (BEPC) ou équivalent. Le département en charge des formations modulaires est également en charge des programmes du Brevet de Technicien (BT), diplôme d’Etat équivalent au Baccalauréat, préparé en 3 ans par tout titulaire d’un BEPC.</string>
+    <string name="vie_est">Vie Estudiantine</string>
+
+    <string name="vie_desc">Pour permettre à ses étudiants et aussi au public d’avoir une bonne formation en langues étrangères et nationales,
+        clé de toute ouverture personnelle sur le monde extérieur,
+        l’ESIG dispose de son propre centre de formation en langues : Global Success International Academy (ILA).
+        Ce département forme en français, anglais, chinois, espagnol, allemand, italien, portugais, éwé et Kabyè (des langues nationales togolaises).
+        Le département des formations continues quant à lui répond beaucoup plus aux besoins des professionnels en terme de formations continues,
+        de renforcement de capacité, de recyclage et autres. Il entretient de ce fait une relation privilégiée avec les entreprises,
+        ce qui justie le rattachement des services « Relation-Entreprise » et « Stage et Suivie Post-formation » à ce département.
+    </string>
+    <string name="Esig_bts">BTS</string>
+    <string name="Esig_lic">Licence</string>
+    <string name="Esig_mod">Modulaire</string>
+    <string name="Esig_lg">Langue</string>
+    <string name="Esig_formc">Formation Continue</string>
+    <string name="partner">Nos Partenaires</string>
+    <string name="partager">Partager L\'application Esig</string>
+    <string name="partageapk">Partager l\'application Esig pour inviter vos amis a en savoir un peu plus sur L\'institut Global Success</string>
+    <string name="cont">Contactez nous !!!</string>
+    <string name="env">Envoyer</string>
+    <string name="connectPa">Se connecter comme:</string>
+    <string name="nocpt">Vous n\'avez pas de compte?</string>
+    <string name="ci">Les Débouchés : </string>
+    <string name="c1">° Assistant Commercial Import-Export</string>
+    <string name="c2">° Chargé de l\'acheminement et du stockage des marchandises</string>
+    <string name="c3">° Chargé des relations avec les transporteurs</string>
+    <string name="c4">° Assistant Acheteur</string>
+    <string name="c5">° Chargé de la clientèle</string>
+    <string name="langtext">Ce qui caractérise Global Success International Language Academy (ILA), c’est de proposer une combinaison de cours, de simulations et des pratiques en laboratoire multimédias. Que vous soyez étudiant, professionnel ou voyageur, l’Academie de Langues vous offre des programmes adaptés à vos besoins et aspirations en mettant à votre disposition des salles de cours très bien équipées ainsi que des enseignants expérimentés.</string>
+    <string name="ite">IT Essentials traite des compétences professionnelles et informatiques essentielles pour les postes en informatique. Le cours IT Essentials inclut des travaux pratiques pour vous préparer aux réseaux d\'entreprise. Les outils de simulation vous aident à perfectionner vos compétences en dépannage et à mettre en pratique vos acquis.</string>
+    <string name="cd">Module1: Réseaux domestiques et de petites Entreprises Module2: Prestation de Service Internet Module3: Présentation du Routeur et de la Commutation au sain d\'une Entreprise Module4: Conception et Prise en charge des Réseaux Locaux</string>
+    <string name="pe">Être titulaire d\'un Baccalauréat</string>
+    <string name="ps">Cadre intermédiaire ayant capitalisé 180 crédits et spécialisé dans les activités et techniques de communication, capable de s\'auto-employer, d\'être employé et/ou de poursuivre les études en Master/école d\'ingénieur</string>
+    <string name="stage">4 semaines de stage de découverte à la fin de la 1re année, 8 semaines de stage de pratique à la fin de la 2e année et l\'alternance école/entreprise au cours de la 3e année</string>
+    <string name="title_activity_etudiant">EtudiantActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_send">Send</string>
+    <string name="action_deconnexion">deconnexion</string>
+    <string name="dp">Données personnelles</string>
+    <string name="reo">Demande de réorientation</string>
+    <string name="ue">Unités d\'enseignements</string>
+    <string name="fiche">Fiche d\'inscription</string>
+    <string name="note">Notes</string>
+    <string name="info">Esig Global Success propose une offre de formation complète et variée en Bts, Licence et Master,dont la qualité est reconnue internationalement </string>
+    <string name="descsavplus">This operating system is composed by several programs, each of them includes its own license. The GNU/GPL v3 license applies to those components developed by the Parrot Project without an explicit license.  The system includes other programs where a different license is used. It is your responsibility to aknowledge and respect all the licenses of the programs you use.   By using this system you accept all the legal constraints and license agreements of any single software provided with it, and you confirm that you have read and understood the following disclaimer.  PARROT SECURITY OS INCLUDES SOME SOFTWARE (E.G. MEDIA CODECS ETC.) FOR COUNTRIES WHOSE LEGISLATION DOESN\'T ALLOW SOFTWARE PATENTS TO BE ENFORCED.  IT IS YOUR RESPONSIBILITY TO KNOW YOUR OWN COUNTRY\'S LEGISLATION.  IF YOU LIVE IN A COUNTRY WHERE THE LEGISLATION RECOGNIZES SOFTWARES PATENTS WE ASK YOU NOT TO DOWNLOAD AND/OR USE THIS SOFTWARE.  THIS IS EXPERIMENTAL SOFTWARE PROVIDED WITHOUT ANY WARRANTY FOR EXPERIMENTAL AND DIDATTIC PURPOSES. USE AT YOUR OWN RISK AND RESPONSIBILITY.  THE PARROT TEAM OR ANY OTHER RELATED PERSON, TEAM, SPONSOR OR PROVIDER CAN NOT BE HELD LIABLE UNDER ANY CIRCUMSTANCES FOR DAMAGE TO HARDWARE OR SOFTWARE, LOST DATA, OR OTHER DIRECT OR INDIRECT DAMAGE RESULTING FROM THE USE OF THIS SYSTEM, THE SOFTWARE PROVIDED IN IT AND ANY OTHER SOFTWARE AVAILABLE IN ITS REPOSITORIES OR INSTALLABLE ON IT.  IN SOME COUNTRIES THE CRYPTOGRAPHIC SOFTWARE AND OTHER COMPONENTS ON THE SYSTEM ARE GOVERNED BY EXPORT REGULATIONS AND THUS MAY NOT BE FREELY COPIED AS IS OTHERWISE NORMAL FOR SOFTWARE UNDER THE GPL LICENSE. IF YOU DO NOT AGREE TO THESE CONDITIONS, YOU ARE NOT PERMITTED TO USE OR FURTHER DISTRIBUTE THIS SOFTWARE.  IF YOU PLAN TO COMMERCIALLY USE OR DISTRIBUTE (AND SELL) THE SOFTWARE, YOU HAVE TO ACQUIRE THE NECESSARY LICENSES AND PERMISSIONS FROM ALL SOFTWARE COPYRIGHT HOLDERS OF NON-FREE SOFTWARE COMPONENTS, OR REMOVE THESE COMPONENTS BEFORE DISTRIBUTING THE SOFTWARE.</string>
+
+</resources>

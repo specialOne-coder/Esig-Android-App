@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "695718857736",
+    "firebase_url": "https://esig-25646.firebaseio.com",
+    "project_id": "esig-25646",
+    "storage_bucket": "esig-25646.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695718857736:android:2a52af354ac00d5e2595bd",
+        "android_client_info": {
+          "package_name": "com.ferdinand.esig"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695718857736-967firl3tiaqbd0ttu2clj7r7fnsf6t3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ferdinand.esig",
+            "certificate_hash": "34b92911b98f305b5c3eafc8a2a948187b1f8a19"
+          }
+        },
+        {
+          "client_id": "695718857736-91gafig6c8r02l8j1hid2t2e304958cv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfqbRu1SsI8X8MdasVuG84-K0rtIhfgq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695718857736-91gafig6c8r02l8j1hid2t2e304958cv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

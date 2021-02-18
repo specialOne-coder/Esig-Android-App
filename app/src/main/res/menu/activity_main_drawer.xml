@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/accueil"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_presentation"
+            android:icon="@drawable/present"
+            android:title="@string/menu_presentation"/>
+        <item
+            android:id="@+id/nav_formation"
+            android:icon="@drawable/formation"
+            android:title="@string/menu_formation"/>
+        <item
+            android:id="@+id/nav_admission"
+            android:icon="@drawable/admission"
+            android:title="@string/menu_admission" />
+        <item
+            android:id="@+id/nav_partenariat"
+            android:icon="@drawable/partner"
+            android:title="@string/menu_partenariat" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/partager"
+            android:title="@string/menu_share" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/contact"
+            android:title="@string/menu_contact" />
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+
+        </menu>
+    </item>
+
+</menu>

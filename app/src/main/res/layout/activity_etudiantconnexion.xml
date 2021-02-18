@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/myvbleu"
+    tools:context=".etudiantconnexion">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/useretudiant"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edit"
+        android:hint="Name"
+        android:textColorHint="@color/myvbleu"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/acbleu"
+        android:drawablePadding="20dp"
+        />
+
+
+    <EditText
+        android:id="@+id/paxetudiant"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edit"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/myvbleu"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/block"
+        android:drawablePadding="20dp"
+        />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mot de passe oublié?"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:paddingTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/loginetudiant"
+        android:onClick="login"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/Esig_Blue"
+        android:background="@drawable/button_drawable"
+        android:text="Login"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nocpt"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp"/>
+
+
+    <Button
+        android:id="@+id/inscription"
+        android:onClick="inscription"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/inscript"
+        android:text="Inscrivez-vous"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myvbleu"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/no"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:textColor="@android:color/white"
+        android:background="@color/myvbleu"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mon Titre"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:text="@string/descsavplus"
+        android:textSize="18dp"/>
+
+
+    <EditText
+        android:id="@+id/users"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edit"
+        android:textColor="@color/myvbleu"
+        android:hint="Name"
+        android:textColorHint="@color/myvbleu"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/acbleu"
+        android:drawablePadding="20dp"
+        />
+
+
+    <EditText
+        android:id="@+id/commentaires_users"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="@color/myvbleu"
+        android:background="@drawable/edit"
+        android:hint="Commentaires"
+        android:textColorHint="@color/myvbleu"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/comment"
+        android:drawablePadding="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/envoyer_comment_yes"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/Esig_Blue"
+        android:background="@drawable/button_drawable"
+        android:text="Envoyer"/>
+
+    <TextView
+        android:id="@+id/commentaires"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/myvbleu"
+        android:background="@android:color/white"/>
+
+
+</LinearLayout>
+
+</ScrollView>

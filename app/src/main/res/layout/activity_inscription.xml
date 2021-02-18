@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/myvbleu"
+        tools:context=".Inscription">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inscrivez-vous!!!"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/nom"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edit"
+            android:hint="Nom"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/myvbleu"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/acbleu"
+            android:drawablePadding="20dp"
+            />
+
+
+        <EditText
+            android:id="@+id/prenom"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edit"
+            android:inputType="text"
+            android:hint="Prenoms"
+            android:textColorHint="@color/myvbleu"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/prenom"
+            android:drawablePadding="20dp"
+            />
+
+
+        <EditText
+            android:id="@+id/filiere"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edit"
+            android:inputType="text"
+            android:hint="Filiere"
+            android:textColorHint="@color/myvbleu"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/filiere"
+            android:drawablePadding="20dp"
+            />
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edit"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/myvbleu"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/block"
+            android:drawablePadding="20dp"
+            />
+
+        <EditText
+            android:id="@+id/confirmpass"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edit"
+            android:hint="Confirm password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/myvbleu"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/block"
+            android:drawablePadding="20dp"
+            />
+
+
+
+        <Button
+            android:id="@+id/btinscript"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/inscript"
+            android:text="Login"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/btselect"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:background="@drawable/inscript"-->
+<!--            android:text="Select"/>-->
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

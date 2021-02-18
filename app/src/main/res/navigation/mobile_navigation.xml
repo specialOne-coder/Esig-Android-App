@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ferdinand.esig.ui.home.HomeFragment"
+        android:label="@string/Esig_name"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_presentation"
+        android:name="com.ferdinand.esig.ui.presentation.PresentationFragment"
+        android:label="@string/menu_presentation"
+        tools:layout="@layout/presentation_fragment" />
+
+    <fragment
+        android:id="@+id/nav_formation"
+        android:name="com.ferdinand.esig.ui.formations.FormationsFragment"
+        android:label="@string/menu_formation"
+        tools:layout="@layout/formations_fragment" />
+    <fragment
+        android:id="@+id/nav_admission"
+        android:name="com.ferdinand.esig.ui.admission.AdmissionFragment"
+        android:label="@string/menu_admission"
+        tools:layout="@layout/admission_fragment" >
+        <action
+            android:id="@+id/action_nav_admission_self"
+            app:destination="@id/nav_admission" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_partenariat"
+        android:name="com.ferdinand.esig.ui.partenariat.PartenariatFragment"
+        android:label="@string/menu_partenariat"
+        tools:layout="@layout/partenariat_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.ferdinand.esig.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_contacts"
+        android:name="com.ferdinand.esig.ui.contacts.ContactsFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/contacts_fragment" />
+
+
+         <!--    Fragment etudiant-->
+
+    <fragment
+        android:id="@+id/nav_hometud"
+        android:name="com.ferdinand.esig.ui.etudianthome.EtudiantHomeFragment"
+        android:label="@string/Esig_name"
+        tools:layout="@layout/etudiant_home_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_donperso"
+        android:name="com.ferdinand.esig.ui.donnperso.DonnpersoFragment"
+        android:label="@string/dp"
+        tools:layout="@layout/donnperso_fragment" />
+
+    <fragment
+        android:id="@+id/nav_reo"
+        android:name="com.ferdinand.esig.ui.reorientation.ReorientationFragment"
+        android:label="@string/reo"
+        tools:layout="@layout/reorientation_fragment" />
+
+    <fragment
+        android:id="@+id/nav_ue"
+        android:name="com.ferdinand.esig.ui.ue.UeFragment"
+        android:label="@string/ue"
+        tools:layout="@layout/ue_fragment" />
+
+    <fragment
+        android:id="@+id/nav_fiche"
+        android:name="com.ferdinand.esig.ui.fiche.FicheFragment"
+        android:label="@string/fiche"
+        tools:layout="@layout/fiche_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_note"
+        android:name="com.ferdinand.esig.ui.note.NoteFragment"
+        android:label="@string/note"
+        tools:layout="@layout/note_fragment"/>
+
+</navigation>
+
+
+
+
+

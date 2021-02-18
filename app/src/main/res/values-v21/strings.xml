@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dp">Données personnelles</string>
+    <string name="reo">Demande de réorientation</string>
+    <string name="fiche">Fiche d\'inscription</string>
+    <string name="note">Notes</string>
+</resources>
